@@ -1,0 +1,21 @@
+# Ignore OS + IDE files
+.DS_Store
+Thumbs.db
+*.swp
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore dataset files (you'll redownload them later if needed)
+datasets/
+*.zip
+
+# Ignore model weights
+*.pt
+*.pth
+*.h5
+
+# Ignore logs and checkpoints
+checkpoints/
+logs/
